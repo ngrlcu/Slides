@@ -6,14 +6,9 @@
 
 <p>By Luca Nigro & Matteo Zeccoli Marazzini</p>
 
-![Operating Systems](https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey)
-![License](https://img.shields.io/github/license/teozec/image-renderer)
-![Pulls](https://img.shields.io/github/issues-pr/teozec/image-renderer)
-![CI](https://img.shields.io/github/workflow/status/teozec/image-renderer/CMake)
-![Top Language](https://img.shields.io/github/languages/top/teozec/image-renderer)
-![Version](https://img.shields.io/github/v/release/teozec/image-renderer)
-![Commits](https://img.shields.io/github/commit-activity/m/teozec/image-renderer)
-![Size](https://img.shields.io/github/repo-size/teozec/image-renderer)
+<p>A C++ software that generates photo-realistic images.</p>
+<small>It is based on the lectures of the _Numerical tecniques for photorealistic image generation_ course ([EN](https://www.unimi.it/en/education/degree-programme-courses/2021/numerical-tecniques-photorealistic-image-generation), [IT](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2021/calcolo-numerico-la-generazione-di-immagini-fotorealistiche)), held by [Prof. Maurizio Tomasi](http://cosmo.fisica.unimi.it/persone/maurizio-tomasi/) in 2021.</small>
+
   
 <p class="no-fragment btn-group" role="group" aria-label="Basic example">
 <a class="btn btn-lg btn-warning text-dark" href="https://github.com/teozec/image-renderer">Github Repo</a>
