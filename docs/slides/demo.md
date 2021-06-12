@@ -6,14 +6,14 @@
 
 <p>By Luca Nigro & Matteo Zeccoli Marazzini</p>
 
-<a href="https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey"></a>
-<a href="https://img.shields.io/github/license/teozec/image-renderer"></a>
-<a href="https://img.shields.io/github/issues-pr/teozec/image-renderer"></a>
-<a href="https://img.shields.io/github/workflow/status/teozec/image-renderer/CMake"></a>
-<a href="https://img.shields.io/github/languages/top/teozec/image-renderer"></a>
-<a href="https://img.shields.io/github/v/release/teozec/image-renderer"></a>
-<a href="https://img.shields.io/github/commit-activity/m/teozec/image-renderer"></a>
-<a href="https://img.shields.io/github/repo-size/teozec/image-renderer"></a>
+![Operating Systems](https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey)
+![License](https://img.shields.io/github/license/teozec/image-renderer)
+![Pulls](https://img.shields.io/github/issues-pr/teozec/image-renderer)
+![CI](https://img.shields.io/github/workflow/status/teozec/image-renderer/CMake)
+![Top Language](https://img.shields.io/github/languages/top/teozec/image-renderer)
+![Version](https://img.shields.io/github/v/release/teozec/image-renderer)
+![Commits](https://img.shields.io/github/commit-activity/m/teozec/image-renderer)
+![Size](https://img.shields.io/github/repo-size/teozec/image-renderer)
   
 <p class="no-fragment btn-group" role="group" aria-label="Basic example">
 <a class="btn btn-lg btn-warning text-dark" href="https://github.com/teozec/image-renderer">Github Repo</a>
