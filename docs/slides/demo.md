@@ -1,13 +1,23 @@
 <!-- .slide: data-state="layout-title"  -->
 
-# RayVeal
+<!-- .slide: data-state="layout-title"  -->
 
-## Opinionated Reveal.js
+# IMAGE RENDERER
 
-<p>A markdown first presentation framework.<br> Based on reveal.js with preinstalled plugins, a dash of Bootstrap and sweet extras.</p>
+## Physically based raytracer
+
+<p>By Luca Nigro & Matteo Zeccoli Marazzini</p>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/license/teozec/image-renderer"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/issues-pr/teozec/image-renderer"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/workflow/status/teozec/image-renderer/CMake"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/languages/top/teozec/image-renderer"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/v/release/teozec/image-renderer"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/commit-activity/m/teozec/image-renderer"></a>
+<a class="btn btn-danger btn-lg text-white fab fa-codepen" href="https://img.shields.io/github/repo-size/teozec/image-renderer"></a>
+
 <p class="no-fragment btn-group" role="group" aria-label="Basic example">
-<a class="btn btn-lg btn-warning text-dark" href="https://github.com/planetoftheweb/rayveal">Github Repo</a>
-<a class="btn btn-lg btn-light text-dark" href="https://rayveal.tech">Demo</a>
+<a class="btn btn-lg btn-warning text-dark" href="https://github.com/teozec/image-renderer">Github Repo</a>
 </p>
 
 <p class="no-fragment small mt-4"><span class="badge bg-light text-dark mr-1 ml-2">&larr; &rarr;</span> navigate
@@ -16,6 +26,7 @@
 <span class="badge bg-light text-dark mr-1 ml-2">esc</span>overview</p>
 
 ---
+
 
 <!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
 
