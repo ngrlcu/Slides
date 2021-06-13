@@ -32,7 +32,7 @@
 
 # Renderers
 
-<i class="fa-solid fa-lightbulb"></i>
+<i class="fab fa-solid fa-lightbulb"></i>
 
 ---
 
@@ -52,7 +52,7 @@
 
 # Shapes
 
-<a class="fa-solid fa-shapes"></a>
+<i class="fab fa-solid fa-shapes"></i>
 
 ---
 
@@ -60,7 +60,7 @@
 
 # Camera
 
-<i class="fa-solid fa-tv"></i>
+<i class="fab fa-solid fa-tv"></i>
 
 ---
 
@@ -68,13 +68,13 @@
 
 # Features
 
-<a class="fa-solid fa-toolbox"></a>
+<i class="fab fa-solid fa-toolbox"></i>
 
 ---
 
 <!-- .slide: data-state="layout-mostly-image" data-background-image="images/antialiasing.gif" -->
 
-## Antialiasing
+# Antialiasing
 
 
 
