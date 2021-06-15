@@ -23,7 +23,7 @@
 
 ---
 
-<!-- .slide: data-state="hasicon" -->
+<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
 # Renderers
 
@@ -31,7 +31,7 @@
 
 ---
 
-<!-- .slide: data-state="hasicon" -->
+<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
 # Shapes
 
@@ -39,7 +39,7 @@
 
 ---
 
-<!-- .slide: data-state="hasicon" -->
+<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
 # Camera
 
@@ -47,7 +47,7 @@
 
 ---
 
-<!-- .slide: data-state="hasicon" -->
+<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
 # Features
 
