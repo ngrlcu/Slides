@@ -494,7 +494,7 @@ h3::selection {
 }
 
 .reveal-viewport.layout-mostly-image .slide-background-content {
-  width: 60% !important;
+  width: 50% !important;
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s; /* don't forget to set a duration! */
 }
