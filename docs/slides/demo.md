@@ -25,33 +25,25 @@
 
 <!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
-# Renderers
-
-<i class="fab fa-solid fa-lightbulb"></i>
+# Renderers <i class="fab fa-solid fa-lightbulb"></i>
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
-# Shapes
-
-<i class="fab fa-solid fa-shapes"></i>
+# Shapes <i class="fab fa-solid fa-shapes"></i>
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
-# Camera
-
-<i class="fab fa-solid fa-tv"></i>
+# Camera <i class="fab fa-solid fa-tv"></i>
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
 
-# Features
-
-<i class="fab fa-solid fa-toolbox"></i>
+# Features <i class="fab fa-solid fa-toolbox"></i>
 
 ---
 
