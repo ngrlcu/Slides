@@ -494,7 +494,7 @@ h3::selection {
 }
 
 .reveal-viewport.layout-mostly-image .slide-background-content {
-  width: 50% !important;
+  width: 65% !important;
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s; /* don't forget to set a duration! */
 }
@@ -503,7 +503,7 @@ h3::selection {
   animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s; /* don't forget to set a duration! */
   align-self: flex-end !important;
-  width: 40% !important;
+  width: 35% !important;
   color: var(--bs-gray-light);
 }
 
