@@ -6,11 +6,8 @@
 
 ![Operating Systems](https://img.shields.io/badge/OS-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey)
 ![License](https://img.shields.io/github/license/teozec/image-renderer)
-![Pulls](https://img.shields.io/github/issues-pr/teozec/image-renderer)
-![CI](https://img.shields.io/github/workflow/status/teozec/image-renderer/CMake)
 ![Top Language](https://img.shields.io/github/languages/top/teozec/image-renderer)
 ![Version](https://img.shields.io/github/v/release/teozec/image-renderer)
-![Commits](https://img.shields.io/github/commit-activity/m/teozec/image-renderer)
 ![Size](https://img.shields.io/github/repo-size/teozec/image-renderer)
 
 <p>By Luca Nigro & Matteo Zeccoli Marazzini</p>
@@ -23,25 +20,25 @@
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
+<!-- .slide: data-state="layout-has-icon" -->
 
 # Renderers <i class="fab fa-solid fa-lightbulb"></i>
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
+<!-- .slide: data-state="layout-has-icon" -->
 
 # Shapes <i class="fab fa-solid fa-shapes"></i>
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
+<!-- .slide: data-state="layout-has-icon" -->
 
 # Camera <i class="fab fa-solid fa-tv"></i>
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" class="bg-dark" -->
+<!-- .slide: data-state="layout-has-icon" -->
 
 # Features <i class="fab fa-solid fa-toolbox"></i>
 
@@ -49,6 +46,6 @@
 
 <!-- .slide: data-state="layout-mostly-image" data-background-image="images/antialiasing.gif" -->
 
-# Antialiasing
+## Antialiasing
 
 
