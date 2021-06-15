@@ -21,14 +21,9 @@
 <a class="btn btn-lg btn-warning text-dark" href="https://github.com/teozec/image-renderer">Github Repo</a>
 </p>
 
-<p class="no-fragment small mt-4"><span class="badge bg-light text-dark mr-1 ml-2">&larr; &rarr;</span> navigate
-<span class="badge bg-light text-dark mr-1 ml-2">t</span>toolbar
-<span class="badge bg-light text-dark mr-1 ml-2">m</span>menu
-<span class="badge bg-light text-dark mr-1 ml-2">esc</span>overview</p>
-
 ---
 
-<!-- .slide: data-state="layout-title" -->
+<!-- .slide: data-state="hasicon" -->
 
 # Renderers
 
@@ -36,19 +31,7 @@
 
 ---
 
-## OnOffRenderer
-
----
-
-## FlatRenderer
-
----
-
-## PathTracer
-
----
-
-<!-- .slide: data-state="layout-title" -->
+<!-- .slide: data-state="hasicon" -->
 
 # Shapes
 
@@ -56,7 +39,7 @@
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
+<!-- .slide: data-state="hasicon" -->
 
 # Camera
 
@@ -64,7 +47,7 @@
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
+<!-- .slide: data-state="hasicon" -->
 
 # Features
 
@@ -75,6 +58,5 @@
 <!-- .slide: data-state="layout-mostly-image" data-background-image="images/antialiasing.gif" -->
 
 # Antialiasing
-
 
 
