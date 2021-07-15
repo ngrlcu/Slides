@@ -87,7 +87,7 @@ And you are good to go!
 
 # Usage
 
-```bash [1|3-13|15-20]
+```bash
 Usage: ./image-renderer render [options] <inputfile>
 ```
 
@@ -119,58 +119,58 @@ Options for 'path' rendering algorithm:
 # Shapes
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_cube.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">Box</h3>
+      <h4 class="card-title">Box</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_plane.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">Plane</h3>
+      <h4 class="card-title">Plane</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_sphere.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">Sphere</h3>
+      <h4 class="card-title">Sphere</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_union.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">CSGUnion</h3>
+      <h4 class="card-title">CSG Union</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_difference.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">CSGDifference</h3>
+      <h4 class="card-title">CSG Difference</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/shape_intersection.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">CSGIntersection</h3>
+      <h4 class="card-title">CSG Intersection</h4>
     </div>
   </div>
 </div>
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/asset_chair.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">Chair</h3>
-      <div class="alert alert-danger fragment w-50">
+      <h4 class="card-title">Chair</h4>
+      <div class="alert alert-danger fragment">
 	<p class="card-text">ONLY API</p>
       </div>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
     <img data-src="images/asset_dice.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">Dice</h3>
-      <div class="alert alert-danger fragment w-50">
+      <h4 class="card-title">Dice</h4>
+      <div class="alert alert-danger fragment">
         <p class="card-text">ONLY API</p>
       </div>
     </div>
