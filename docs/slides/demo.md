@@ -119,37 +119,37 @@ Options for 'path' rendering algorithm:
 # Shapes
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_cube.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Box</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_plane.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Plane</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_sphere.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Sphere</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_union.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">CSG Union</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_difference.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">CSG Difference</h4>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 8em">
     <img data-src="images/shape_intersection.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">CSG Intersection</h4>
@@ -157,7 +157,7 @@ Options for 'path' rendering algorithm:
   </div>
 </div>
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 6em">
     <img data-src="images/asset_chair.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Chair</h4>
@@ -166,7 +166,7 @@ Options for 'path' rendering algorithm:
       </div>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 6em">
+  <div class="card fragment fade-in" style="width: 6em">
     <img data-src="images/asset_dice.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Dice</h4>
