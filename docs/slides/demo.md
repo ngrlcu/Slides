@@ -102,11 +102,57 @@ And you are good to go!
 
 # Help
 
+```
+Usage: ./image-renderer render [options] <inputfile>
+
+General options:
+	-h, --help							Print this message.
+	-q, --quiet							Do not show rendering progress.
+	-y, --dryRun							Parse scenefile, but do not render image. Useful to check correctness of scenes.
+	-f <variable1:value1,variable2:value2,...>, --float=<...>	Define float variables to be used in the scenefile.
+	-w <value>, --width=<value>					Width of the final image (default 640).
+	-h <value>, --height=<value>					Height of the final image (default 480).
+	-a <value>, --aspectRatio=<value>				Aspect ratio of the final image (default width/height).
+	-A <value>, --antialiasing=<value>				Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
+	-R <renderer>, --renderer=<renderer>				Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
+	-o <string>, --outfile=<string>					Filename of output image (default input filename with '.pfm' extension).
+
+Options for 'path' rendering algorithm:
+	-s <value>, --seed=<value>					Random number generator seed (default 42).
+	-i <value>, --initSeq=<value>					Random number generator init sequence (default 54).
+	-n <value>, --nRays=<value>					Number of rays started at each intersection (default 3).
+	-d <value>, --depth=<value>					Max ray depth (default 4).
+	-r <value>, --roulette=<value>					Ray depth to start Russian roulette (default 3).
+```
+
 ---
 
 <!-- .slide: data-state="layout-title" -->
 
 # Shapes
+
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">Box</h3>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">Sphere</h3>
+    </div>
+  </div>
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">CSG</h3>
+    </div>
+  </div>
+</div>
 
 ---
 
