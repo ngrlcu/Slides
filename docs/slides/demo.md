@@ -20,11 +20,9 @@
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
-
 # Getting Started
 
-```bash [1|2-5|6|]
+```bash [1|2-5|6]
 git clone git@github.com:teozec/image-renderer.git
 mkdir build
 cd build
@@ -37,8 +35,6 @@ And you are good to go!
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
-
 # Renderers
 
 <div class="card-group">
@@ -47,11 +43,9 @@ And you are good to go!
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
       <p class="card-text">
-        <pre>
           <code>
             ./image-renderer render -R onoff
           </code>
-        </pre>
       </p>
     </div>
   </div>
@@ -61,11 +55,9 @@ And you are good to go!
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
       <p class="card-text">
-        <pre>
           <code>
             ./image-renderer render -R debug
           </code>
-        </pre>
       </p>
     </div>
   </div>
@@ -74,11 +66,9 @@ And you are good to go!
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
-        <pre>
           <code>
             ./image-renderer render -R flat
           </code>
-        </pre>
       </p>
     </div>
   </div>
@@ -87,22 +77,18 @@ And you are good to go!
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
       <p class="card-text">
-        <pre>
           <code>
             ./image-renderer render -R path
           </code>
-        </pre>
     </div>
   </div>
 </div>
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
-
 # Help
 
-```
+```bash
 Usage: ./image-renderer render [options] <inputfile>
 
 General options:
@@ -126,8 +112,6 @@ Options for 'path' rendering algorithm:
 ```
 
 ---
-
-<!-- .slide: data-state="layout-title" -->
 
 # Shapes
 
@@ -161,8 +145,6 @@ Options for 'path' rendering algorithm:
 # Materials
 
 ---
-
-<!-- .slide: data-state="layout-has-icon" -->
 
 # Features
 
