@@ -38,47 +38,47 @@ And you are good to go!
 # Renderers
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
       <p class="card-text">
           <code>
-            ./image-renderer render -R onoff
+           [...] -R onoff
           </code>
       </p>
     </div>
   </div>
   <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
       <p class="card-text">
           <code>
-            ./image-renderer render -R debug
+            [...] -R debug
           </code>
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
           <code>
-            ./image-renderer render -R flat
+            [...] -R flat
           </code>
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
       <p class="card-text">
           <code>
-            ./image-renderer render -R path
+            [...] -R path
           </code>
     </div>
   </div>
@@ -88,8 +88,7 @@ And you are good to go!
 
 # Help
 
-```bash [2|4-14| 16-21]
-	
+```bash [1|3-13|15-20]
 Usage: ./image-renderer render [options] <inputfile>
 
 General options:
@@ -110,7 +109,6 @@ Options for 'path' rendering algorithm:
 	-n <value>, --nRays=<value>					Number of rays started at each intersection (default 3).
 	-d <value>, --depth=<value>					Max ray depth (default 4).
 	-r <value>, --roulette=<value>					Ray depth to start Russian roulette (default 3).
-	
 ```
 
 ---
@@ -119,7 +117,7 @@ Options for 'path' rendering algorithm:
 
 <div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/shape_box.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">Box</h3>
     </div>
@@ -127,19 +125,44 @@ Options for 'path' rendering algorithm:
 </div>
 <div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/shape_plane.gif" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">Plane</h3>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/shape_sphere.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">Sphere</h3>
     </div>
   </div>
+</div>
+<div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/shape_union.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
-      <h3 class="card-title">CSG</h3>
+      <h3 class="card-title">CSGUnion</h3>
     </div>
   </div>
 </div>
-
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/shape_difference.gif" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">CSGDifference</h3>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/shape_intersection.gif" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">CSGIntersection</h3>
+    </div>
+  </div>
+</div>
 ---
 
 <!-- .slide: data-state="layout-background-video" data-background-video="images/materials.mp4" -->
