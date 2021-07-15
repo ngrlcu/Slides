@@ -20,60 +20,91 @@
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" -->
+<!-- .slide: data-state="layout-title" -->
+
+# Getting Started
+
+```bash [1|2-5|6|]
+git clone git@github.com:teozec/image-renderer.git
+mkdir build
+cd build
+cmake ..
+make
+source ../tools/bash-completion.bash
+```
+
+And you are good to go!
+
+---
+
+<!-- .slide: data-state="layout-title" -->
 
 # Renderers
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
-      <p class="card-text"><pre><code>
-          ./image-renderer render -R onoff
+      <p class="card-text">
+        <pre>
+          <code>
+            ./image-renderer render -R onoff
+          </code>
         </pre>
-        </code>
       </p>
     </div>
   </div>
   <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
-      <p class="card-text"><code>
-          ./image-renderer render -R debug
-        </code>
+      <p class="card-text">
+        <pre>
+          <code>
+            ./image-renderer render -R debug
+          </code>
+        </pre>
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
-        ```bash
-          ./image-renderer render -R flat
-        ```
+        <pre>
+          <code>
+            ./image-renderer render -R flat
+          </code>
+        </pre>
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
       <p class="card-text">
-        ```bash
-          ./image-renderer render -R path
-        ```
-        </p>
+        <pre>
+          <code>
+            ./image-renderer render -R path
+          </code>
+        </pre>
     </div>
   </div>
 </div>
 
 ---
 
-<!-- .slide: data-state="layout-has-icon" -->
+<!-- .slide: data-state="layout-title" -->
+
+# Help
+
+---
+
+<!-- .slide: data-state="layout-title" -->
 
 # Shapes
 
