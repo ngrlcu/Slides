@@ -25,7 +25,7 @@
 # Renderers
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/renderer_onoff.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
@@ -37,7 +37,7 @@
     </div>
   </div>
   <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/renderer_debug.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
@@ -48,7 +48,7 @@
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/renderer_flat.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
@@ -59,7 +59,7 @@
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 12em">
     <img data-src="images/renderer_path.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
