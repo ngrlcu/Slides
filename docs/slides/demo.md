@@ -107,11 +107,11 @@ General options:
 
 ```
 Options for 'path' rendering algorithm:
-	-s <value>, --seed=<value>					Random number generator seed (default 42).
-	-i <value>, --initSeq=<value>					Random number generator init sequence (default 54).
-	-n <value>, --nRays=<value>					Number of rays started at each intersection (default 3).
-	-d <value>, --depth=<value>					Max ray depth (default 4).
-	-r <value>, --roulette=<value>					Ray depth to start Russian roulette (default 3).
+	-s <value>, --seed=<value>	Random number generator seed (default 42).
+	-i <value>, --initSeq=<value>	Random number generator init sequence (default 54).
+	-n <value>, --nRays=<value>	Number of rays started at each intersection (default 3).
+	-d <value>, --depth=<value>	Max ray depth (default 4).
+	-r <value>, --roulette=<value>	Ray depth to start Russian roulette (default 3).
 ```
 
 ---
@@ -178,7 +178,7 @@ Options for 'path' rendering algorithm:
 </div>
 ---
 
-<!-- .slide: data-state="layout-background-video" data-background-video="images/materials.gif" -->
+<!-- .slide: data-state="layout-background-image" data-background-image="images/materials.gif" -->
   
 # Materials
 
