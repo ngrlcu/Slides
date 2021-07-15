@@ -38,7 +38,7 @@ And you are good to go!
 # Renderers
 
 <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
@@ -50,7 +50,7 @@ And you are good to go!
     </div>
   </div>
   <div class="card-group">
-  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
@@ -61,7 +61,7 @@ And you are good to go!
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
@@ -72,7 +72,7 @@ And you are good to go!
       </p>
     </div>
   </div>
-  <div class="card fragment fade-in-then-semi-out" style="width: 14em">
+  <div class="card fragment fade-in-then-semi-out" style="width: 13em">
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
@@ -88,7 +88,8 @@ And you are good to go!
 
 # Help
 
-```bash
+```bash [2|4-14| 16-21]
+	
 Usage: ./image-renderer render [options] <inputfile>
 
 General options:
@@ -109,6 +110,7 @@ Options for 'path' rendering algorithm:
 	-n <value>, --nRays=<value>					Number of rays started at each intersection (default 3).
 	-d <value>, --depth=<value>					Max ray depth (default 4).
 	-r <value>, --roulette=<value>					Ray depth to start Russian roulette (default 3).
+	
 ```
 
 ---
