@@ -53,7 +53,7 @@
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
-        ```
+        ```bash
           ./image-renderer render -R flat
         ```
       </p>
@@ -63,11 +63,9 @@
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
-      <p class="card-text">
-        ```
+        ```bash
           ./image-renderer render -R path
         ```
-      </p>
     </div>
   </div>
 </div>
