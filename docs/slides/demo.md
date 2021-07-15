@@ -22,25 +22,73 @@
 
 <!-- .slide: data-state="layout-has-icon" -->
 
-# Renderers <i class="fab fa-solid fa-lightbulb"></i>
+# Renderers
+
+<div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/renderer/onoff.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">OnOffRenderer</h3>
+      <p class="card-text">
+        ```
+          ./image-renderer render -R onoff
+        ```
+      </p>
+    </div>
+  </div>
+  <div class="card-group">
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/renderer/debug.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">DebugRenderer</h3>
+      <p class="card-text">
+        ```
+          ./image-renderer render -R debug
+        ```
+      </p>
+    </div>
+  </div>
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/renderer/flat.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">FlatRenderer</h3>
+      <p class="card-text">
+        ```
+          ./image-renderer render -R flat
+        ```
+      </p>
+    </div>
+  </div>
+  <div class="card fragment fade-in-then-semi-out" style="width: 8em">
+    <img data-src="images/renderer/path.png" class="card-img-top img-fluid" alt="Sample Image">
+    <div class="card-body">
+      <h3 class="card-title">PathTracer</h3>
+      <p class="card-text">
+        ```
+          ./image-renderer render -R path
+        ```
+      </p>
+    </div>
+  </div>
+</div>
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" -->
 
-# Shapes <i class="fab fa-solid fa-shapes"></i>
+# Shapes
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" -->
 
-# Camera <i class="fab fa-solid fa-tv"></i>
+# Materials
 
 ---
 
 <!-- .slide: data-state="layout-has-icon" -->
 
-# Features <i class="fab fa-solid fa-toolbox"></i>
+# Features
 
 ---
 
