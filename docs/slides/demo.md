@@ -29,10 +29,10 @@
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
-      <p class="card-text">
-        ```
+      <p class="card-text"><pre><code>
           ./image-renderer render -R onoff
-        ```
+        </pre>
+        </code>
       </p>
     </div>
   </div>
@@ -41,10 +41,9 @@
     <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
-      <p class="card-text">
-        ```
+      <p class="card-text"><code>
           ./image-renderer render -R debug
-        ```
+        </code>
       </p>
     </div>
   </div>
