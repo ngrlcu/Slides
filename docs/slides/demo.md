@@ -26,7 +26,7 @@
 
 <div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/renderer/onoff.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_onoff.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
       <p class="card-text">
@@ -38,7 +38,7 @@
   </div>
   <div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/renderer/debug.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_debug.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
       <p class="card-text">
@@ -49,7 +49,7 @@
     </div>
   </div>
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/renderer/flat.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_flat.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
@@ -60,7 +60,7 @@
     </div>
   </div>
   <div class="card fragment fade-in-then-semi-out" style="width: 8em">
-    <img data-src="images/renderer/path.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_path.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
       <p class="card-text">
@@ -80,7 +80,7 @@
 
 ---
 
-<!-- .slide: data-state="layout-background-video" data-background-video="images/materials/materials.mp4" -->
+<!-- .slide: data-state="layout-background-video" data-background-video="images/materials.mp4" -->
   
 # Materials
 
