@@ -35,11 +35,18 @@ And you are good to go!
 
 ---
 
+# Basic Usage
+
+```bash
+./image-renderer render [options] &lt;inputfile&gt;
+```
+
+---
 # Renderers
 
 <div class="card-group">
   <div class="card fragment fade-in-then-semi-out" style="width: 12em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_onoff.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">OnOffRenderer</h3>
       <p class="card-text">
@@ -50,7 +57,7 @@ And you are good to go!
     </div>
   </div>
   <div class="card fragment fade-in-then-semi-out" style="width: 12em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_debug.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">DebugRenderer</h3>
       <p class="card-text">
@@ -61,7 +68,7 @@ And you are good to go!
     </div>
   </div>
   <div class="card fragment fade-in-then-semi-out" style="width: 12em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_flat.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">FlatRenderer</h3>
       <p class="card-text">
@@ -72,7 +79,7 @@ And you are good to go!
     </div>
   </div>
   <div class="card fragment fade-in-then-semi-out" style="width: 12em">
-    <img data-src="images/empty_room.png" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/renderer_path.png" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h3 class="card-title">PathTracer</h3>
       <p class="card-text">
@@ -85,22 +92,22 @@ And you are good to go!
 
 ---
 
-# Usage
+# Advanced Usage
 
 ```bash [1|3-13|15-20]
 Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
 General options:
-	-h, --help							Print this message.
-	-q, --quiet							Do not show rendering progress.
-	-y, --dryRun							Parse scenefile, but do not render image. Useful to check correctness of scenes.
+	-h, --help	Print this message.
+	-q, --quiet	Do not show rendering progress.
+	-y, --dryRun	Parse scenefile, but do not render image. Useful to check correctness of scenes.
 	-f &lt;variable1:value1,variable2:value2,...&gt;, --float=&lt;...&gt;	Define float variables to be used in the scenefile.
-	-w &lt;value&gt;, --width=&lt;value&gt;					Width of the final image (default 640).
-	-h &lt;value&gt;, --height=&lt;value&gt;					Height of the final image (default 480).
-	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;				Aspect ratio of the final image (default width/height).
-	-A &lt;value&gt;, --antialiasing=&lt;value&gt;				Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
-	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;				Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
-	-o &lt;string&gt;, --outfile=&lt;string&gt;					Filename of output image (default input filename with '.pfm' extension).
+	-w &lt;value&gt;, --width=&lt;value&gt;	Width of the final image (default 640).
+	-h &lt;value&gt;, --height=&lt;value&gt;	Height of the final image (default 480).
+	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;	Aspect ratio of the final image (default width/height).
+	-A &lt;value&gt;, --antialiasing=&lt;value&gt;	Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
+	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;	Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
+	-o &lt;string&gt;, --outfile=&lt;string&gt;	Filename of output image (default input filename with '.pfm' extension).
 
 Options for 'path' rendering algorithm:
 	-s &lt;value&gt;, --seed=&lt;value&gt;	Random number generator seed (default 42).
