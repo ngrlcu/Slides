@@ -98,22 +98,21 @@ And you are good to go!
 Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
 General options:
-	-h, --help	Print this message.
-	-q, --quiet	Do not show rendering progress.
-	-y, --dryRun	Parse scenefile, but do not render image. Useful to check correctness of scenes.
-	-f &lt;variable1:value1,variable2:value2,...&gt;, --float=&lt;...&gt;	Define float variables to be used in the scenefile.
-	-w &lt;value&gt;, --width=&lt;value&gt;	Width of the final image (default 640).
+	-h, --help					Print this message.
+	-q, --quiet					Do not show rendering progress.
+	-y, --dryRun					Parse scenefile, but do not render image. Useful to check correctness of scenes.
+	-w &lt;value&gt;, --width=&lt;value&gt;		Width of the final image (default 640).
 	-h &lt;value&gt;, --height=&lt;value&gt;	Height of the final image (default 480).
 	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;	Aspect ratio of the final image (default width/height).
 	-A &lt;value&gt;, --antialiasing=&lt;value&gt;	Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
-	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;	Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
+	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
 	-o &lt;string&gt;, --outfile=&lt;string&gt;	Filename of output image (default input filename with '.pfm' extension).
 
 Options for 'path' rendering algorithm:
-	-s &lt;value&gt;, --seed=&lt;value&gt;	Random number generator seed (default 42).
+	-s &lt;value&gt;, --seed=&lt;value&gt;		Random number generator seed (default 42).
 	-i &lt;value&gt;, --initSeq=&lt;value&gt;	Random number generator init sequence (default 54).
-	-n &lt;value&gt;, --nRays=&lt;value&gt;	Number of rays started at each intersection (default 3).
-	-d &lt;value&gt;, --depth=&lt;value&gt;	Max ray depth (default 4).
+	-n &lt;value&gt;, --nRays=&lt;value&gt;		Number of rays started at each intersection (default 3).
+	-d &lt;value&gt;, --depth=&lt;value&gt;		Max ray depth (default 4).
 	-r &lt;value&gt;, --roulette=&lt;value&gt;	Ray depth to start Russian roulette (default 3).
 ```
 
