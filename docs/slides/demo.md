@@ -87,31 +87,27 @@ And you are good to go!
 
 # Usage
 
-```bash
-Usage: ./image-renderer render [options] <inputfile>
-```
+```bash [1|3-13|15-20]
+Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
-```
 General options:
 	-h, --help							Print this message.
 	-q, --quiet							Do not show rendering progress.
 	-y, --dryRun							Parse scenefile, but do not render image. Useful to check correctness of scenes.
-	-f <variable1:value1,variable2:value2,...>, --float=<...>	Define float variables to be used in the scenefile.
-	-w <value>, --width=<value>					Width of the final image (default 640).
-	-h <value>, --height=<value>					Height of the final image (default 480).
-	-a <value>, --aspectRatio=<value>				Aspect ratio of the final image (default width/height).
-	-A <value>, --antialiasing=<value>				Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
-	-R <renderer>, --renderer=<renderer>				Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
-	-o <string>, --outfile=<string>					Filename of output image (default input filename with '.pfm' extension).
-```
+	-f &lt;variable1:value1,variable2:value2,...&gt;, --float=&lt;...&gt;	Define float variables to be used in the scenefile.
+	-w &lt;value&gt;, --width=&lt;value&gt;					Width of the final image (default 640).
+	-h &lt;value&gt;, --height=&lt;value&gt;					Height of the final image (default 480).
+	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;				Aspect ratio of the final image (default width/height).
+	-A &lt;value&gt;, --antialiasing=&lt;value&gt;				Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
+	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;				Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
+	-o &lt;string&gt;, --outfile=&lt;string&gt;					Filename of output image (default input filename with '.pfm' extension).
 
-```
 Options for 'path' rendering algorithm:
-	-s <value>, --seed=<value>	Random number generator seed (default 42).
-	-i <value>, --initSeq=<value>	Random number generator init sequence (default 54).
-	-n <value>, --nRays=<value>	Number of rays started at each intersection (default 3).
-	-d <value>, --depth=<value>	Max ray depth (default 4).
-	-r <value>, --roulette=<value>	Ray depth to start Russian roulette (default 3).
+	-s &lt;value&gt;, --seed=&lt;value&gt;	Random number generator seed (default 42).
+	-i &lt;value&gt;, --initSeq=&lt;value&gt;	Random number generator init sequence (default 54).
+	-n &lt;value&gt;, --nRays=&lt;value&gt;	Number of rays started at each intersection (default 3).
+	-d &lt;value&gt;, --depth=&lt;value&gt;	Max ray depth (default 4).
+	-r &lt;value&gt;, --roulette=&lt;value&gt;	Ray depth to start Russian roulette (default 3).
 ```
 
 ---
