@@ -42,6 +42,58 @@ And you are good to go!
 ```
 
 ---
+
+# Example Scene
+
+Scene.txt:
+
+```
+# An example scene to demonstrate the usage of the scenefale language
+
+# With float, we can declare varibales that we can use everywhere a float is expected.
+float red(0.5)
+
+[...]
+
+# With materials, we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
+material sky_material(
+	diffuse(uniform(<0.8, 0.1, 1.>)),	# A diffuse BRDF will reflect rays in random directions.
+	uniform(<0.8, 0.8, 1>)			# The sky is a light source, so we assign a non-black pigment to it.
+)
+
+[...]
+
+# Now that we have all our materials, we can define the actual shapes that are in the scene.
+
+# At first, we define a CSG union of a box and a sphere.
+union(
+	# Each shape has a material as its first argument, and a transformation as its last argument.
+	# Depending on the shape, there can be middle parameters: for example, the box takes the minimum and maximum vertices.
+	box(box_material, [-0.5, -0.5, -1], [0.5, 0.5, 0], translation([0, -1, 0]) * rotation_z(45)),
+
+	# sphere defines the unit sphere, to which some transformations are applied.
+	# You can combine transformations with *. They are applied from right to left.
+	sphere(sphere_material, translation([0, -1, 0.2]) * scaling([0.5, 0.5, 0.5])),
+
+	# If we want, we can also transform the whole union. In this case, we leave it unchanged.
+	identity
+)
+
+# Let's now define the ground with a plane.
+# The language is flexible enough to permit spaces before "("
+plane (ground_material, translation([0, 0, -1]))
+
+# Finally, the sky is a big sphere of radius 7.5.
+sphere(sky_material, scaling([7.5, 7.5, 7.5]))
+
+# Without a camera, there is nothing to see.
+# You can set the type of camera, the tranformation to apply and the distance from the screen.
+# The aspect ratio is calculated from the width and height, and can be overwritten with a parameter to pass to the render action.
+camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
+
+```
+
+---
 # Renderers
 
 <div class="card-group">
@@ -100,13 +152,13 @@ Usage: ./image-renderer render [options] &lt;inputfile&gt;
 General options:
 	-h, --help					Print this message.
 	-q, --quiet					Do not show rendering progress.
-	-y, --dryRun					Parse scenefile, but do not render image. Useful to check correctness of scenes.
+	-y, --dryRun					Parse scenefile, but do not render image.
 	-w &lt;value&gt;, --width=&lt;value&gt;		Width of the final image (default 640).
 	-h &lt;value&gt;, --height=&lt;value&gt;	Height of the final image (default 480).
 	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;	Aspect ratio of the final image (default width/height).
-	-A &lt;value&gt;, --antialiasing=&lt;value&gt;	Number of samples per single pixel (default 0). Must be a perfect square, e.g. 4.
-	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;Rendering algorithm (default 'path'). Can be 'path', 'debug', 'onoff', 'flat'.
-	-o &lt;string&gt;, --outfile=&lt;string&gt;	Filename of output image (default input filename with '.pfm' extension).
+	-A &lt;value&gt;, --antialiasing=&lt;value&gt;	Number of samples per single pixel (default 0).
+	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;Rendering algorithm (default 'path').
+	-o &lt;string&gt;, --outfile=&lt;string&gt;	Filename of output image.
 
 Options for 'path' rendering algorithm:
 	-s &lt;value&gt;, --seed=&lt;value&gt;		Random number generator seed (default 42).
