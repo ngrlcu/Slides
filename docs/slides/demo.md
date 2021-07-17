@@ -47,7 +47,7 @@ And you are good to go!
 
 examples/scene.txt:
 
-``` [|1-4|6-10|12-21|23-25]
+``` [1-4|6-10|12-21|23-25]
 # With 'float' we can declare variables (a float is expected).
 float red(0.5)
 
@@ -217,6 +217,8 @@ Options for 'path' rendering algorithm:
   
 # Materials
 
+
+
 ---
 
 # Features
@@ -224,3 +226,29 @@ Options for 'path' rendering algorithm:
 ---
 
 <!-- .slide: data-state="layout-background-image" data-background-image="images/antialiasing.gif" -->
+
+---
+
+<!-- .slide: data-state="layout-background-image" data-background-image="images/stack.png" -->
+
+## Stacking
+
+./image-renderer stack [options] &lt;inputfiles&gt;
+
+---
+
+<!-- .slide: data-state="layout-background-image" data-background-image="images/pfm2ldr.png" -->
+
+## PFM to LDR converter
+
+./image-renderer pfm2ldr [options] &lt;inputfile&gt;
+
+---
+
+# Some Images
+
+[Here a sort of portfolio]
+
+---
+
+Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec)
