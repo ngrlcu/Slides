@@ -45,11 +45,9 @@ And you are good to go!
 
 # Example Scene
 
-Scene.txt:
+examples/scene.txt:
 
-```
-# An example scene to demonstrate the usage of the scenefale language
-
+``` [1-4|6-12]
 # With float, we can declare varibales that we can use everywhere a float is expected.
 float red(0.5)
 
@@ -63,6 +61,15 @@ material sky_material(
 
 [...]
 
+...to be continued
+```
+---
+
+# Example Scene
+
+examples/scene.txt:
+
+```
 # Now that we have all our materials, we can define the actual shapes that are in the scene.
 
 # At first, we define a CSG union of a box and a sphere.
@@ -86,11 +93,19 @@ plane (ground_material, translation([0, 0, -1]))
 # Finally, the sky is a big sphere of radius 7.5.
 sphere(sky_material, scaling([7.5, 7.5, 7.5]))
 
+...to be continued
+```
+---
+
+# Example Scene
+
+examples/scene.txt:
+
+```
 # Without a camera, there is nothing to see.
 # You can set the type of camera, the tranformation to apply and the distance from the screen.
 # The aspect ratio is calculated from the width and height, and can be overwritten with a parameter to pass to the render action.
 camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
-
 ```
 
 ---
@@ -146,7 +161,7 @@ camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
 
 # Advanced Usage
 
-```bash [1|3-13|15-20]
+```bash [1|3-13|14-20]
 Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
 General options:
