@@ -55,8 +55,8 @@ float red(0.5)
 
 # With 'materials' we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
 material sky_material(
-	diffuse(uniform(<0.8, 0.1, 1.0>)),	# A diffuse BRDF will reflect rays in random directions.
-	uniform(<0.8, 0.8, 1.0>)			# The sky is a light source, so we assign a non-black pigment to it.
+	diffuse(uniform(<0.8, 0.1, 1.0>)),    # A diffuse BRDF will reflect rays in random directions.
+	uniform(<0.8, 0.8, 1.0>)              # The sky is a light source, so we assign a non-black pigment to it.
 )
 
 # Now that we have all our materials, we can define the actual shapes that are in the scene.
@@ -131,9 +131,9 @@ camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
 Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
 General options:
-	-h, --help                                       Print this message.
-	-q, --quiet                                      Do not show rendering progress.
-	-y, --dryRun                                     Parse scenefile, but do not render image.
+	-h, --help                           Print this message.
+	-q, --quiet                          Do not show rendering progress.
+	-y, --dryRun                         Parse scenefile, but do not render image.
 	-w &lt;value&gt;, --width=&lt;value&gt;          Width of the final image (default 640).
 	-h &lt;value&gt;, --height=&lt;value&gt;         Height of the final image (default 480).
 	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;    Aspect ratio of the final image (default width/height).
