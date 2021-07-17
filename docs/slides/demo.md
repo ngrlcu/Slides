@@ -47,67 +47,33 @@ And you are good to go!
 
 examples/scene.txt:
 
-``` [1-4|6-12]
-# With float, we can declare varibales that we can use everywhere a float is expected.
+``` [|1-4|6-10|12-21|23-25]
+# With float we can declare variables (a float is expected).
 float red(0.5)
 
 [...]
 
-# With materials, we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
+# With materials we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
 material sky_material(
 	diffuse(uniform(<0.8, 0.1, 1.>)),	# A diffuse BRDF will reflect rays in random directions.
 	uniform(<0.8, 0.8, 1>)			# The sky is a light source, so we assign a non-black pigment to it.
 )
 
-[...]
-
-...to be continued
-```
----
-
-# Example Scene
-
-examples/scene.txt:
-
-```
 # Now that we have all our materials, we can define the actual shapes that are in the scene.
 
-# At first, we define a CSG union of a box and a sphere.
-union(
-	# Each shape has a material as its first argument, and a transformation as its last argument.
-	# Depending on the shape, there can be middle parameters: for example, the box takes the minimum and maximum vertices.
-	box(box_material, [-0.5, -0.5, -1], [0.5, 0.5, 0], translation([0, -1, 0]) * rotation_z(45)),
+[...]
 
-	# sphere defines the unit sphere, to which some transformations are applied.
-	# You can combine transformations with *. They are applied from right to left.
-	sphere(sphere_material, translation([0, -1, 0.2]) * scaling([0.5, 0.5, 0.5])),
-
-	# If we want, we can also transform the whole union. In this case, we leave it unchanged.
-	identity
-)
-
-# Let's now define the ground with a plane.
+# Let's define the ground with a plane.
 # The language is flexible enough to permit spaces before "("
 plane (ground_material, translation([0, 0, -1]))
 
 # Finally, the sky is a big sphere of radius 7.5.
 sphere(sky_material, scaling([7.5, 7.5, 7.5]))
 
-...to be continued
-```
----
-
-# Example Scene
-
-examples/scene.txt:
-
-```
 # Without a camera, there is nothing to see.
 # You can set the type of camera, the tranformation to apply and the distance from the screen.
-# The aspect ratio is calculated from the width and height, and can be overwritten with a parameter to pass to the render action.
 camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
 ```
-
 ---
 # Renderers
 
