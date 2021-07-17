@@ -48,30 +48,30 @@ And you are good to go!
 examples/scene.txt:
 
 ``` [|1-4|6-10|12-21|23-25]
-# With float we can declare variables (a float is expected).
+# With 'float' we can declare variables (a float is expected).
 float red(0.5)
 
 [...]
 
-# With materials we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
+# With 'materials' we can declare (guess what) materials. Each of them includes a BRDF and a pigment.
 material sky_material(
-	diffuse(uniform(<0.8, 0.1, 1.>)),	# A diffuse BRDF will reflect rays in random directions.
-	uniform(<0.8, 0.8, 1>)			# The sky is a light source, so we assign a non-black pigment to it.
+	diffuse(uniform(<0.8, 0.1, 1.0>)),	# A diffuse BRDF will reflect rays in random directions.
+	uniform(<0.8, 0.8, 1.0>)			# The sky is a light source, so we assign a non-black pigment to it.
 )
 
 # Now that we have all our materials, we can define the actual shapes that are in the scene.
 
 [...]
 
-# Let's define the ground with a plane.
-# The language is flexible enough to permit spaces before "("
+# Let's define the ground with a 'plane'.
+# The language is flexible enough to permit spaces before '('
 plane (ground_material, translation([0, 0, -1]))
 
-# Finally, the sky is a big sphere of radius 7.5.
+# Finally, the sky is a big 'sphere' of radius 7.5.
 sphere(sky_material, scaling([7.5, 7.5, 7.5]))
 
-# Without a camera, there is nothing to see.
-# You can set the type of camera, the tranformation to apply and the distance from the screen.
+# Without a 'camera' there is nothing to see!
+# You can set the type of camera, the tranformations to apply and the distance from the screen.
 camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
 ```
 ---
@@ -131,22 +131,22 @@ camera(perspective, translation([-1, 0, 0]) * rotation_z(angle), 1.0)
 Usage: ./image-renderer render [options] &lt;inputfile&gt;
 
 General options:
-	-h, --help					Print this message.
-	-q, --quiet					Do not show rendering progress.
-	-y, --dryRun					Parse scenefile, but do not render image.
-	-w &lt;value&gt;, --width=&lt;value&gt;		Width of the final image (default 640).
-	-h &lt;value&gt;, --height=&lt;value&gt;	Height of the final image (default 480).
-	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;	Aspect ratio of the final image (default width/height).
-	-A &lt;value&gt;, --antialiasing=&lt;value&gt;	Number of samples per single pixel (default 0).
-	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt;Rendering algorithm (default 'path').
-	-o &lt;string&gt;, --outfile=&lt;string&gt;	Filename of output image.
+	-h, --help                                       Print this message.
+	-q, --quiet                                      Do not show rendering progress.
+	-y, --dryRun                                     Parse scenefile, but do not render image.
+	-w &lt;value&gt;, --width=&lt;value&gt;          Width of the final image (default 640).
+	-h &lt;value&gt;, --height=&lt;value&gt;         Height of the final image (default 480).
+	-a &lt;value&gt;, --aspectRatio=&lt;value&gt;    Aspect ratio of the final image (default width/height).
+	-A &lt;value&gt;, --antialiasing=&lt;value&gt;   Number of samples per single pixel (default 0).
+	-R &lt;renderer&gt;, --renderer=&lt;renderer&gt; Rendering algorithm (default 'path').
+	-o &lt;string&gt;, --outfile=&lt;string&gt;      Filename of output image.
 
 Options for 'path' rendering algorithm:
-	-s &lt;value&gt;, --seed=&lt;value&gt;		Random number generator seed (default 42).
-	-i &lt;value&gt;, --initSeq=&lt;value&gt;	Random number generator init sequence (default 54).
-	-n &lt;value&gt;, --nRays=&lt;value&gt;		Number of rays started at each intersection (default 3).
-	-d &lt;value&gt;, --depth=&lt;value&gt;		Max ray depth (default 4).
-	-r &lt;value&gt;, --roulette=&lt;value&gt;	Ray depth to start Russian roulette (default 3).
+	-s &lt;value&gt;, --seed=&lt;value&gt;           Random number generator seed (default 42).
+	-i &lt;value&gt;, --initSeq=&lt;value&gt;        Random number generator init sequence (default 54).
+	-n &lt;value&gt;, --nRays=&lt;value&gt;          Number of rays started at each intersection (default 3).
+	-d &lt;value&gt;, --depth=&lt;value&gt;          Max ray depth (default 4).
+	-r &lt;value&gt;, --roulette=&lt;value&gt;       Ray depth to start Russian roulette (default 3).
 ```
 
 ---
