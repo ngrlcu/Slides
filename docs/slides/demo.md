@@ -22,8 +22,9 @@
 
 # Getting Started
 
-```bash [1|2-5|6]
+```bash [1|2-6|7]
 git clone git@github.com:teozec/image-renderer.git
+cd image-renderer
 mkdir build
 cd build
 cmake ..
