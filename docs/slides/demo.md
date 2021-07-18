@@ -221,6 +221,8 @@ Options for 'path' rendering algorithm:
 
 ---
 
+<!-- .slide: data-state="layout-title" -->
+
 # Features
 
 ---
@@ -231,17 +233,17 @@ Options for 'path' rendering algorithm:
 
 <!-- .slide: data-state="layout-background-image" data-background-image="images/stack.png" -->
 
-## Stacking
+# Stacking
 
-./image-renderer stack [options] &lt;inputfiles&gt;
+<p>./image-renderer stack [options] &lt;inputfiles&gt;</p>
 
 ---
 
 <!-- .slide: data-state="layout-mostly-image" data-background-image="images/pfm2ldr.png" -->
 
-## PFM to LDR converter
+# PFM to LDR converter
 
-./image-renderer pfm2ldr [options] &lt;inputfile&gt;
+<p>./image-renderer pfm2ldr [options] &lt;inputfile&gt;</p>
 
 ---
 
