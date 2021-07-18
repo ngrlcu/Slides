@@ -229,11 +229,9 @@ Options for 'path' rendering algorithm:
 
 <!-- .slide: data-state="layout-background-image" data-background-image="images/antialiasing.gif" -->
 
-<small>--antialiasing=&lt;value&gt;</small>
-
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/stack.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/stack.png" -->
 
 # Stacking
 
