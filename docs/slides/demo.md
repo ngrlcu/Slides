@@ -161,7 +161,7 @@ Options for 'path' rendering algorithm:
     </div>
   </div>
   <div class="card fragment fade-in" style="width: 8em">
-    <img data-src="images/shape_plane.gif" class="card-img-top img-fluid" alt="Sample Image">
+    <img data-src="images/plane.gif" class="card-img-top img-fluid" alt="Sample Image">
     <div class="card-body">
       <h4 class="card-title">Plane</h4>
     </div>
@@ -217,7 +217,23 @@ Options for 'path' rendering algorithm:
   
 # Materials
 
+---
 
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/diffusive.png" -->
+
+## DiffusiveBRDF
+
+---
+
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/specular.png" -->
+
+## SpecularBRDF
+
+---
+
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/dielectric.png" -->
+
+## DielectricBSDF
 
 ---
 
