@@ -251,4 +251,5 @@ Options for 'path' rendering algorithm:
 
 ---
 <p>
-Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec) <i class="twa twa-beaming-face-with-smiling-eyes"></i></p>
+Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec)</p> 
+<i class="twa twa-beaming-face-with-smiling-eyes"></i>
