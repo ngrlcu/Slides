@@ -221,7 +221,7 @@ Options for 'path' rendering algorithm:
 
 ---
 
-<!-- .slide: data-state="layout-title" -->
+<!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
 
 # Features
 
@@ -229,13 +229,15 @@ Options for 'path' rendering algorithm:
 
 <!-- .slide: data-state="layout-background-image" data-background-image="images/antialiasing.gif" -->
 
+<small>--antialiasing=&lt;value&gt;</small>
+
 ---
 
 <!-- .slide: data-state="layout-background-image" data-background-image="images/stack.png" -->
 
 # Stacking
 
-<p>./image-renderer stack [options] &lt;inputfiles&gt;</p>
+<small>./image-renderer stack [options] &lt;inputfiles&gt;</small>
 
 ---
 
@@ -243,7 +245,7 @@ Options for 'path' rendering algorithm:
 
 # PFM to LDR converter
 
-<p>./image-renderer pfm2ldr [options] &lt;inputfile&gt;</p>
+<small>./image-renderer pfm2ldr [options] &lt;inputfile&gt;</small>
 
 ---
 
