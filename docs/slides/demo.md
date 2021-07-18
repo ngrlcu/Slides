@@ -267,35 +267,35 @@ Options for 'path' rendering algorithm:
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/assets1.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/assets1.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/blurry.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/blurry.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/diel1.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/diel1.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/diel2.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/diel2.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/diel3.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/diel3.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/mat.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/mat.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/perlin.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/perlin.png" -->
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/spec.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/spec.png" -->
 
 ---
 <div>
