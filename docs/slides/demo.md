@@ -250,6 +250,7 @@ Options for 'path' rendering algorithm:
 [Here a sort of portfolio]
 
 ---
-
-Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec)
+<div>
+Thanks from <a href="https://github.com/ngrlcu">Luca Nigro</a> & <a href=https://github.com/teozec>Matteo Zeccoli Marazzini</a>
 <i class="twa twa-beaming-face-with-smiling-eyes"></i>
+</div>
