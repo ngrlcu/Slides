@@ -237,7 +237,7 @@ Options for 'path' rendering algorithm:
 
 ---
 
-<!-- .slide: data-state="layout-background-image" data-background-image="images/pfm2ldr.png" -->
+<!-- .slide: data-state="layout-mostly-image" data-background-image="images/pfm2ldr.png" -->
 
 ## PFM to LDR converter
 
@@ -250,5 +250,5 @@ Options for 'path' rendering algorithm:
 [Here a sort of portfolio]
 
 ---
-
-Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec)
+<p>
+Thanks from [Luca Nigro](https://github.com/ngrlcu) & [Matteo Zeccoli Marazzini](https://github.com/teozec) <i class="twa twa-beaming-face-with-smiling-eyes"></i></p>
